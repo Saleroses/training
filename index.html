@@ -1,0 +1,85 @@
+<!---Собщаем браузеру как обрабатывать страницу --->
+<!DOCTYPE html>
+<!---Указываем язык документа-->
+<html lang="ru">
+
+<head>
+    <title>Заголовок</title>
+    <!---Кодировка-->
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+    <div>
+        <p> Имя </p>
+        <div>
+            <p><input type="text" name="name" tabindex="1" placeholder="Имя"></p>
+        </div>
+    </div>
+    <div>
+        <p>Пароль</p>
+        <div>
+            <p><input type="password" name="password" tabindex="2" placeholder="Пасс"></p>
+        </div>
+    </div>
+    <div>
+        <p>Телефон</p>
+        <div>
+            <p><input type="tel" name="tel" tabindex="3" placeholder="8-965-777-83-45"></p>
+        </div>
+    </div>
+    <div>
+        <p>Пол</p>
+        <div>
+            <p><input type="radio" name="gender" value="male" checked tabindex="4">Мужской</p>
+            <p><input type="radio" name="gender" value="female" tabindex="4">Женский</p>
+        </div>
+    </div>
+    <div>
+        <p>Имущество</p>
+        <div>
+            <p><input type="checkbox" name="bike" value="yes" checked tabindex="5">Велик </p>
+            <p><input type="checkbox" name="car" value="yes"tabindex="6">Машина</p>
+            <p><input type="checkbox" name="home" value="yes" disabled tabindex="7">Квартира</p>
+        </div>
+    </div>
+    <div>
+        <p>Дополнительная информация</p>
+        <textarea name="text" tabindex="8"></textarea>
+    </div>
+    <div><p>Прикрепить фото</p>
+    <input type="file" tabindex="9" name="userfoto">
+    </div>
+    <div>
+        <p>Любимый цвет</p>
+        <select name="color" tabindex="10" >
+            <option value="red">Красный</option>
+            <option value="blue" selected>Синий</option>
+            <option value="green">Зеленый</option>
+        </select>
+    </div>
+    <div>
+        <p>Действия</p>
+        <button type="submit" tabindex="11">Отправить</button>
+        <button type="reset" tabindex="12">Очистить </button>
+    </div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
